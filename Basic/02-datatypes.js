@@ -1,44 +1,55 @@
-//tipos de datos primitivos
+/*
+Clase 17 - Tipos de datos
+Vídeo: https://youtu.be/1glVfFxj8a4?t=3599
+*/
 
-// Cadena de texto (string)
-let myName = "Simon Pinilla"
-let alias = 'Stycson'
-let email = `simon.pinilla10@gmail.com`
+// Tipos de datos primitivos
 
-// Números (numbre)
-let age = 25 // Entero
-let height = 1.73 // Decimal
+// Cadenas de texto (string)
+let myName = "Brais Moure"
+let alias = 'MoureDev'
+let email = `braismoure@mouredev.com`
 
-// Booleanos (bool)
-let isStudent = true
-let isTeacher = false
+// Números (number)
+let age = 37 // Entero
+let height = 1.77 // Decimal
 
-//Undefined
-let undefinedValue //variable no definida o con valor
+// Booleanos (boolean)
+let isTeacher = true
+let isStudent = false
+
+// Undefined
+let undefinedValue
 console.log(undefinedValue)
 
-//Null
+// Null
 let nullValue = null
 
-//Symbol
+// Symbol
+
 let mySymbol = Symbol("mysymbol")
 
-//BigInt
-let myBigInt = BigInt(2313891283127398718932193)
-let myBigInt2 = 2313891283127398718932193n
+// BigInt
 
+let myBigInt = BigInt(817239871289371986589716389471628379612983761289376129)
+let myBigInt2 = 817239871289371986589716389471628379612983761289376129n
 
+// Mostramos los tipos de datos
 console.log(typeof myName)
-console.log(typeof isStudent)
+console.log(typeof alias)
+console.log(typeof email)
+
+console.log(typeof age)
 console.log(typeof height)
+
+console.log(typeof isTeacher)
+console.log(typeof isStudent)
+
 console.log(typeof undefinedValue)
-console.log(typeof mySymbol)
+
 console.log(typeof nullValue)
+
+console.log(typeof mySymbol)
+
 console.log(typeof myBigInt)
 console.log(typeof myBigInt2)
-
-
-
-
-
-
