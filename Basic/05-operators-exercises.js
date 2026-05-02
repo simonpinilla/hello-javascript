@@ -70,15 +70,52 @@ console.log("comparacion de mayor o igual verdadera (num1 >= num2) =" ,num1 >= n
 
 
 // 4. Imprime 5 comparaciones falsas con diferentes operadores de comparación
+console.log("\n--- RESULTADOS DEL EJERCICIO 4 ---");
+console.log("comparación falsa menor (num1 < num2) =", num1 < num2)
+console.log("comparación falsa mayor (num1 < num2) =", num1 > num2)
+console.log("comparación falsa igual (num1 == num3) =", num1 == num3)
+console.log("comparación falsa distinto (num1 != num2) =", num1 != num2)
+console.log("comparacion de mayor o igual falso (num1 >= num3) =" ,num1 >= num3 )
+
 
 // 5. Utiliza el operador lógico and
+console.log("\n--- RESULTADOS DEL EJERCICIO 5 ---");
+
+console.log(5 < 10 && 15 < 20)
+
 
 // 6. Utiliza el operador lógico or
+console.log("\n--- RESULTADOS DEL EJERCICIO 6 ---");
+
+console.log(5 < 10 || 15 < 20)
+
 
 // 7. Combina ambos operadores lógicos
+console.log("\n--- RESULTADOS DEL EJERCICIO 7 ---");
+
+console.log(5 < 4 && 15 < 20 || 7 > 5)
+
 
 // 8. Añade alguna negación
+console.log("\n--- RESULTADOS DEL EJERCICIO 8 ---");
+
+console.log("esto es una negacion: !5<4 = ", !(5<4))
+
+
 
 // 9. Utiliza el operador ternario
+console.log("\n--- RESULTADOS DEL EJERCICIO 9 ---");
+const haceFrio = false
+haceFrio ? console.log("hace mucho frio"): console.log("no hace frio") 
 
-// 10. Combina operadores aritméticos, de comparáción y lógicas
+
+// 10. Combina operadores aritméticos, de comparación y lógicos
+console.log("\n--- RESULTADOS DEL EJERCICIO 10 ---");
+let pass = "hola";
+let nivelUsuario = 4;
+
+// Verificamos: Que la pass sea "hola" Y que (nivel + 1) sea mayor a 5
+let puedeAcceder = (pass === "hola") && (nivelUsuario + 1 > 5);
+
+console.log("¿El usuario tiene acceso?:", puedeAcceder); 
+// Resultado: true
