@@ -66,5 +66,4 @@ switch (day) {
     default:
         dayName = "Número de día incorrecto"
 }
-
 console.log(dayName)
